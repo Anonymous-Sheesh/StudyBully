@@ -1,0 +1,20 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="study_on" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/sc_on">
+        <intent android:action="com.ibad.studybully.ON"
+            android:targetPackage="com.ibad.studybully"
+            android:targetClass="com.ibad.studybully.ToggleActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="study_off" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/sc_off">
+        <intent android:action="com.ibad.studybully.OFF"
+            android:targetPackage="com.ibad.studybully"
+            android:targetClass="com.ibad.studybully.ToggleActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="wall" android:enabled="true"
+        android:icon="@drawable/ic_tile" android:shortcutShortLabel="@string/sc_wall">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="com.ibad.studybully"
+            android:targetClass="com.ibad.studybully.WallActivity" />
+    </shortcut>
+</shortcuts>
